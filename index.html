@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Janny Mello Studio de Beleza em Camaçari, Bahia. Beleza, cuidado e autoestima com atendimento personalizado.">
   <meta name="theme-color" content="#080808">
-  <title>Desenvolvedor Borges | Janny Mello Studio</title>
+  <title>Borges InnovaTech | Janny Mello Studio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
@@ -28,12 +28,14 @@
     .sound{position:fixed;left:20px;bottom:20px;z-index:40;border:1px solid var(--gold);background:rgba(8,8,8,.86);color:var(--cream);min-height:46px;padding:0 16px;display:flex;align-items:center;gap:9px;font:600 .72rem Montserrat,sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;backdrop-filter:blur(12px)}.sound i{width:8px;height:8px;border-radius:50%;background:#777}.sound.on i{background:var(--gold);box-shadow:0 0 15px var(--gold)}
     @media(max-width:760px){.wrap{width:min(100% - 28px,1160px)}.links{display:none}.hero{min-height:88svh}.hero:before,.hero:after{background-position:64% center}.hero h1{font-size:4.6rem}.hero p{font-size:.96rem;max-width:90%}section{padding:75px 0}.section-head,.about-grid,.contact-grid{grid-template-columns:1fr;gap:32px}.portrait{height:470px}.service-grid{grid-template-columns:1fr}.card{min-height:205px}.gallery-grid{display:flex;overflow:auto;scroll-snap-type:x mandatory}.shot,.shot:first-child{min-width:88%;height:440px;scroll-snap-align:center}.footer-flex{flex-direction:column}.socials{flex-wrap:wrap}.contact-card{padding:24px}}
     @media(prefers-reduced-motion:reduce){.hero:before,.hero:after{animation:none}.hero:after{display:none}.shot img,.btn{transition:none}}
+    .demo-credit{height:52px;gap:6px 22px;flex-wrap:wrap;padding:6px 14px;line-height:1.4;text-align:center;letter-spacing:.07em}.demo-credit span{white-space:nowrap}.top{top:52px}.agency{padding:64px 0;text-align:center;border-block:1px solid var(--gold);background:radial-gradient(ellipse at top,rgba(212,175,114,.16),transparent 75%),#10100f}.agency h2{font:600 clamp(2rem,6vw,4rem)/1.15 "Cormorant Garamond",serif;color:var(--gold);margin:12px 0 26px}.agency .btn{padding:14px 22px;display:inline-block;text-transform:none;letter-spacing:.03em}.developer-credit{display:inline-block;margin-top:10px}footer{padding-bottom:100px}
+    @media(max-width:480px){.demo-credit{font-size:.61rem;gap:2px}.demo-credit span{display:block;width:100%}.brand small{font-size:.53rem}.agency .btn{font-size:.75rem}}
   </style>
 </head>
 <body>
-  <div class="demo-credit"><strong>Site demonstrativo</strong> Desenvolvedor Borges</div>
+  <a class="demo-credit" href="https://wa.me/5571996223885" target="_blank" rel="noopener">Site em desenvolvimento por Borges InnovaTech <span>WhatsApp: (71) 99622-3885</span></a>
   <canvas id="beauty-bg" aria-hidden="true"></canvas><div class="glow one"></div><div class="glow two"></div>
-  <header class="top"><div class="wrap nav"><a class="brand" href="#inicio"><small>Desenvolvedor Borges apresenta</small>Janny <span>Mello</span></a><nav class="links" aria-label="Principal"><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#resultados">Resultados</a><a href="#contato">Contato</a></nav></div></header>
+  <header class="top"><div class="wrap nav"><a class="brand" href="#inicio"><small>Borges InnovaTech apresenta</small>Janny <span>Mello</span></a><nav class="links" aria-label="Principal"><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#resultados">Resultados</a><a href="#contato">Contato</a></nav></div></header>
   <main>
     <section class="hero" id="inicio"><div class="wrap"><div class="hero-copy"><div class="eyebrow">Studio de Beleza • Camaçari, Bahia</div><h1>Sua beleza,<em>sua essência.</em></h1><p>Um espaço pensado para realçar quem você é, com cuidado, técnica e uma experiência feita sob medida.</p><div class="actions"><a class="btn primary" href="https://wa.me/5522999214531?text=Ol%C3%A1%2C%20Janny!%20Conheci%20o%20seu%20studio%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar pelo WhatsApp</a><a class="btn" href="#servicos">Conhecer serviços</a></div></div></div></section>
     <section id="sobre"><div class="wrap about-grid"><div class="portrait"><img src="foto-03.webp" alt="Janny Mello, especialista em harmonização capilar"></div><div class="about"><span class="kicker">Sobre o studio</span><h2>Beleza com identidade</h2><p>Janny Mello é especialista em harmonização capilar, alisamentos, tratamentos e mechas. Cada atendimento começa ouvindo você e entendendo o resultado que deseja.</p><p>Em um ambiente acolhedor em Camaçari, técnica e cuidado se unem para valorizar a beleza, a saúde e a personalidade dos seus cabelos.</p><div class="signature">Janny Mello</div><a class="btn" href="https://www.instagram.com/studiojannymello?stkn=OGVnbjVqOHhlNHBl" target="_blank" rel="noopener">Ver Instagram</a></div></div></section>
@@ -45,11 +47,12 @@
       <article class="card"><span class="num">05</span><h3>Finalização</h3><p>Escova e modelagem para realçar o corte e entregar um visual elegante em cada ocasião.</p><a href="https://wa.me/5522999214531?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20finaliza%C3%A7%C3%A3o." target="_blank">Consultar disponibilidade →</a></article>
       <article class="card"><span class="num">06</span><h3>Atendimento personalizado</h3><p>Converse com Janny e encontre a combinação de serviços ideal para o resultado que você deseja.</p><a href="https://wa.me/5522999214531?text=Ol%C3%A1%2C%20gostaria%20de%20um%20atendimento%20personalizado." target="_blank">Falar com Janny →</a></article>
     </div></div></section>
+    <section class="agency" aria-labelledby="agency-title"><div class="wrap"><p class="kicker">Site em desenvolvimento por</p><h2 id="agency-title">Borges InnovaTech</h2><a class="btn primary" href="https://wa.me/5571996223885" target="_blank" rel="noopener">Fale com Borges InnovaTech<br>WhatsApp: (71) 99622-3885</a></div></section>
     <section id="resultados"><div class="wrap"><div class="section-head"><div><span class="kicker">Inspiração</span><h2>Resultados</h2></div><p>Uma amostra visual da experiência, da técnica e do cuidado presentes em cada atendimento no studio.</p></div><div class="gallery-grid"><figure class="shot" data-label="Cabelos & finalização"><img src="foto-02.webp" alt="Janny Mello realizando uma finalização com secador"></figure><figure class="shot" data-label="Beleza com identidade"><img src="foto-04.webp" alt="Janny Mello sorrindo no studio"></figure><figure class="shot" data-label="Atendimento especializado"><img src="janny-mello.png" alt="Retrato profissional de Janny Mello"></figure></div></div></section>
     <section class="quote"><div class="wrap"><blockquote>“Quando você se sente bem consigo mesma, <strong>isso aparece em tudo.</strong>”</blockquote></div></section>
     <section class="contact" id="contato"><div class="wrap contact-grid"><div><span class="kicker">Seu momento começa aqui</span><h2>Vamos agendar?</h2><p>Fale diretamente com Janny pelo WhatsApp para consultar horários, serviços e valores. Atendimento em Camaçari, Bahia.</p><div class="actions"><a class="btn primary" href="https://wa.me/5522999214531?text=Ol%C3%A1%2C%20Janny!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Chamar no WhatsApp</a></div></div><aside class="contact-card"><div class="row"><small>WhatsApp</small><b>+55 22 99921-4531</b></div><div class="row"><small>Localização</small><b>Camaçari — Bahia</b></div><div class="row"><small>Instagram</small><b>@studiojannymello</b></div><div class="row"><small>Atendimento</small><b>Somente com horário agendado</b></div></aside></div></section>
   </main>
-  <footer><div class="wrap footer-flex"><span>© <span id="year"></span> Janny Mello Studio de Beleza<br><span class="developer-credit">Projeto e desenvolvimento: Desenvolvedor Borges</span></span><div class="socials"><a href="https://www.instagram.com/studiojannymello?stkn=OGVnbjVqOHhlNHBl" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/share/1BUVcgPzfd/" target="_blank" rel="noopener">Facebook</a><a href="https://wa.me/5522999214531" target="_blank" rel="noopener">WhatsApp</a></div></div></footer>
+  <footer><div class="wrap footer-flex"><span>© <span id="year"></span> Janny Mello Studio de Beleza<br><span class="developer-credit">Site em desenvolvimento por <a href="https://wa.me/5571996223885" target="_blank" rel="noopener">Borges InnovaTech<br>WhatsApp: (71) 99622-3885</a></span></span><div class="socials"><a href="https://www.instagram.com/studiojannymello?stkn=OGVnbjVqOHhlNHBl" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/share/1BUVcgPzfd/" target="_blank" rel="noopener">Facebook</a><a href="https://wa.me/5522999214531" target="_blank" rel="noopener">WhatsApp</a></div></div></footer>
   <a class="float" href="https://wa.me/5522999214531?text=Ol%C3%A1%2C%20Janny!%20Conheci%20seu%20studio%20pelo%20site." target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp"><span>WhatsApp</span></a>
   <button class="sound" id="sound" type="button" aria-label="Ativar ou desativar música ambiente"><i></i><span>Ativar música</span></button>
   <script>
@@ -57,12 +60,58 @@
     const canvas=document.getElementById('beauty-bg'),ctx=canvas.getContext('2d');let dots=[];
     function size(){canvas.width=innerWidth*devicePixelRatio;canvas.height=innerHeight*devicePixelRatio;ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);dots=Array.from({length:Math.min(44,Math.floor(innerWidth/24))},()=>({x:Math.random()*innerWidth,y:Math.random()*innerHeight,r:Math.random()*2+.5,v:Math.random()*.3+.08,a:Math.random()*.35+.08}))}size();addEventListener('resize',size);
     function animate(){ctx.clearRect(0,0,innerWidth,innerHeight);for(const d of dots){d.y-=d.v;if(d.y<-8){d.y=innerHeight+8;d.x=Math.random()*innerWidth}ctx.beginPath();ctx.fillStyle=`rgba(212,175,114,${d.a})`;ctx.arc(d.x,d.y,d.r,0,Math.PI*2);ctx.fill()}requestAnimationFrame(animate)}animate();
-    const sound=document.getElementById('sound');let ac,nodes=[],playing=false;
-    function startMusic(){if(playing)return;ac=ac||new(window.AudioContext||window.webkitAudioContext)();const master=ac.createGain();master.gain.value=.028;master.connect(ac.destination);[220,277.18,329.63,415.3].forEach((f,i)=>{const o=ac.createOscillator(),g=ac.createGain();o.type=i%2?'sine':'triangle';o.frequency.value=f/2;g.gain.value=.16;o.connect(g).connect(master);o.start();nodes.push(o)});playing=true;sound.classList.add('on');sound.querySelector('span').textContent='Música ligada'}
-    function stopMusic(){nodes.forEach(n=>n.stop());nodes=[];playing=false;sound.classList.remove('on');sound.querySelector('span').textContent='Ativar música'}
+    const sound=document.getElementById('sound');
+    let ac, musicBuffer, musicSource, musicGain, playing=false, busy=false;
+    function createMusicBuffer(context){
+      const duration=32, rate=context.sampleRate;
+      const buffer=context.createBuffer(1, duration*rate, rate), data=buffer.getChannelData(0);
+      const melody=[60,64,67,72,71,67,64,62,57,60,64,69,67,64,60,62,53,57,60,65,64,60,57,60,55,59,62,67,65,62,59,62];
+      melody.forEach((note,index)=>{
+        const frequency=440*Math.pow(2,(note-69)/12), length=2.8;
+        for(let i=0;i<length*rate;i++){
+          const t=i/rate, attack=Math.min(1,t/.08);
+          const envelope=attack*attack*Math.exp(-2.1*t)*Math.pow(Math.max(0,1-t/length),2);
+          const tone=Math.sin(2*Math.PI*frequency*t)+.15*Math.sin(4*Math.PI*frequency*t);
+          data[(index*rate+i)%data.length]+=tone*envelope*.16;
+        }
+      });
+      return buffer;
+    }
+    function updateMusicButton(){
+      sound.classList.toggle('on',playing);
+      sound.setAttribute('aria-pressed',String(playing));
+      sound.querySelector('span').textContent=playing?'Desativar música':'Ativar música';
+    }
+    async function startMusic(){
+      if(playing||busy)return;
+      busy=true;
+      try{
+        ac=ac||new(window.AudioContext||window.webkitAudioContext)();
+        await ac.resume();
+        if(ac.state!=='running')throw new Error('Audio unavailable');
+        musicBuffer=musicBuffer||createMusicBuffer(ac);
+        musicSource=ac.createBufferSource();musicSource.buffer=musicBuffer;musicSource.loop=true;
+        musicGain=ac.createGain();musicGain.gain.setValueAtTime(0,ac.currentTime);
+        musicGain.gain.linearRampToValueAtTime(.28,ac.currentTime+.5);
+        musicSource.connect(musicGain).connect(ac.destination);musicSource.start();
+        playing=true;updateMusicButton();
+      }catch(error){
+        playing=false;updateMusicButton();
+        sound.querySelector('span').textContent='Tentar ativar música';
+      }finally{busy=false;}
+    }
+    function stopMusic(){
+      if(!playing)return;
+      const source=musicSource,gain=musicGain,now=ac.currentTime;
+      gain.gain.cancelScheduledValues(now);gain.gain.setValueAtTime(gain.gain.value,now);
+      gain.gain.linearRampToValueAtTime(0,now+.3);source.stop(now+.35);
+      source.onended=()=>{source.disconnect();gain.disconnect();};
+      musicSource=null;musicGain=null;playing=false;updateMusicButton();
+    }
     sound.addEventListener('click',()=>playing?stopMusic():startMusic());
-    addEventListener('load',()=>{try{startMusic()}catch(e){}},{once:true});
-    addEventListener('pointerdown',()=>{if(!playing)startMusic()}, {once:true});
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)stopMusic();});
+    updateMusicButton();
   </script>
 </body>
 </html>
+
